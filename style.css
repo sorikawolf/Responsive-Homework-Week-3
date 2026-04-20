@@ -94,3 +94,12 @@ p {
   background-color: var(--primary-color);
   color: blue;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 65px;
+  }
+  h2 {
+    font-size: 40px;
+  }
+}
